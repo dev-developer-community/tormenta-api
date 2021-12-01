@@ -117,6 +117,15 @@ create table skill_character (
 	constraint pk_skc_id primary key(skc_id)
 );
 
+create table skill_class_power (
+    scp_id UUID,
+    scp_description text,
+    scp_character_id UUID,
+    constraint pk_scp_id primary key(scp_id)
+)
+
+alter table skill_class_power add constraint fk_skill_class_power_character foreign key(scp_character_id) references character(cha_id);
+
 create table skill (
 	ski_id UUID,
 	ski_attribute_id UUID,

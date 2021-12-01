@@ -8,14 +8,14 @@
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.github.cleitonestefenon</groupId>
-	<artifactId>ficha-tormenta-api</artifactId>
+	<groupId>com.github.devcommunity</groupId>
+	<artifactId>sheet-tormenta-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ficha-tormenta-api</name>
-	<description>API para controle da ficha do jogo Tormenta 20</description>
+	<name>sheet-tormenta-api</name>
+	<description>API to control the Tormenta 20 game sheet</description>
 
 	<properties>
-		<java.version>8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>

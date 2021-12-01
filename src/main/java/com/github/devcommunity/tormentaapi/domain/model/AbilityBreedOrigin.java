@@ -1,6 +1,6 @@
 package com.github.devcommunity.tormentaapi.domain.model;
 
-import com.github.devcommunity.tormentaapi.domain.model.auditoria.Audit;
+import com.github.devcommunity.tormentaapi.domain.model.audit.Audit;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.hibernate.annotations.Type;

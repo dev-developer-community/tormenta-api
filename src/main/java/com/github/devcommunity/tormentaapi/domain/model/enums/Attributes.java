@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum Atributos {
+public enum Attributes {
 
     FORCA("FOR"),
     DESTREZA("DES"),
@@ -14,5 +14,5 @@ public enum Atributos {
     SABEDORIA("SAB"),
     CARISMA("CAR");
 
-    private String descricao;
+    private final String description;
 }

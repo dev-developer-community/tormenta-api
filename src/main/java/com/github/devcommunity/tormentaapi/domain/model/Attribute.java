@@ -1,7 +1,7 @@
 package com.github.devcommunity.tormentaapi.domain.model;
 
-import com.github.devcommunity.tormentaapi.domain.model.auditoria.Audit;
-import com.github.devcommunity.tormentaapi.domain.model.enums.Atributos;
+import com.github.devcommunity.tormentaapi.domain.model.audit.Audit;
+import com.github.devcommunity.tormentaapi.domain.model.enums.Attributes;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -23,5 +23,5 @@ public class Attribute extends Audit implements Serializable {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "att_description")
-    private Atributos description;
+    private Attributes description;
 }
