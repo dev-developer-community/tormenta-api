@@ -17,7 +17,7 @@ public class SwaggerConfig {
 
     private static final String BASE_PACKAGE = "com.github.devcommunity.tormentaapi";
     private static final String TITLE_API = "Api online form Storm 20";
-    private static final String DESCRIPTION_API = "Api to manage multiple sheets of RPG Tormenta 20";
+    private static final String DESCRIPTION_API = "Api to manage multiple sheets of RPG Storm 20";
     private static final String VERSION_API = "1.0.0";
     private static final String CONTACT_NAME = "Cleiton Estefenon | Clediano Estefenon";
     private static final String CONTACT_GITHUB = "https://github.com/dev-developer-community";

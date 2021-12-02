@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.devcommunity</groupId>
-	<artifactId>sheet-tormenta-api</artifactId>
+	<artifactId>sheet-storm-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sheet-tormenta-api</name>
-	<description>API to control the Tormenta 20 game sheet</description>
+	<name>sheet-storm-api</name>
+	<description>API to control the Storm 20 game sheet</description>
 
 	<properties>
 		<java.version>11</java.version>

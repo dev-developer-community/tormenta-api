@@ -7,12 +7,12 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum Attributes {
 
-    FORCA("FOR"),
-    DESTREZA("DES"),
-    CONSTITUICAO("CON"),
-    INTELIGENCIA("INT"),
-    SABEDORIA("SAB"),
-    CARISMA("CAR");
+    FORCE("FOR"),
+    SKILL("DES"),
+    CHARACTERISTICS("CON"),
+    INTELLIGENCE("INT"),
+    KNOWLEDGE("SAB"),
+    CHARISMA("CAR");
 
     private final String description;
 }
