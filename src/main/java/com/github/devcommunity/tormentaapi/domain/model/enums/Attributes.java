@@ -15,4 +15,5 @@ public enum Attributes {
     CHARISMA("CAR");
 
     private final String description;
+
 }
