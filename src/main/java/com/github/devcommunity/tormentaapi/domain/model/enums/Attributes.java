@@ -9,7 +9,7 @@ public enum Attributes {
 
     FORCE("FOR"),
     SKILL("DES"),
-    CHARACTERISTICS("CON"),
+    CONSTITUTION("CON"),
     INTELLIGENCE("INT"),
     KNOWLEDGE("SAB"),
     CHARISMA("CAR");
